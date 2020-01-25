@@ -40,6 +40,7 @@
 ## Funcionalidades desenvolvidas que não foram abordadas no curso
 - Upload das imagens para o S3 da amazon
 - Disponibilização do backend e do frontend no servidor Heroku
+
 Para acessar o frontend:
 <a href="https://aircnc-lourival-frontend.herokuapp.com/">Aircnc app - by Lourival</a>
 
