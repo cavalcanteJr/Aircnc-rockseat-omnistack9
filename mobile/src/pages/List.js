@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import socketio from 'socket.io-client';
-import { Alert, SafeAreaView, ScrollView, StyleSheet, Image, AsyncStorage } from 'react-native';
+import { Alert, SafeAreaView, ScrollView, StyleSheet, Image, AsyncStorage, Platform, StatusBar } from 'react-native';
 
 import SpotList from '../components/SpotList';
 
@@ -31,7 +31,8 @@ export default function List() {
 
   return (
     <>
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView style={styles.container} >
+        <StatusBar/>
         <Image style={styles.logo} source={logo} />
 
         <ScrollView>
@@ -45,6 +46,8 @@ export default function List() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "white",
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
   },
 
   logo: {
