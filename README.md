@@ -35,7 +35,23 @@
   <img alt="Frontend" src=".github/aircnc.png" width="100%">
 </p>
 
+## Projeto desenvolvido no curso OmniStack 9.0 (by Rocketseat)
+
+## Funcionalidades desenvolvidas que não foram abordadas no curso
+- Upload das imagens para o S3 da amazon
+- Disponibilização do backend e do frontend no servidor Heroku
+Para acessar o frontend:
+<a href="https://aircnc-lourival-frontend.herokuapp.com/">Aircnc app - by Lourival</a>
+
+## Funcionalidade futuras
+- Cadastrar spots pelo dispositivo Android
+- Solicitar reserva pelo acesso Web
+- Editar e excluir um spot
+- Chat entre provedor do spot e o usuário interessado
+
+
 ## :rocket: Tecnologias
+<a href="https://github.com/Rocketseat/semana-omnistack-9">Github da Rocketset com o codigo desenvolvido pelo instrutor</a>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
